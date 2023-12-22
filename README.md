@@ -14,10 +14,12 @@
 
 
 - After setting up elasticsearch mapping send ksqlDB tables to elasticsearch and grafana
-  ![image](https://github.com/GaborDevv/kafka/assets/147967502/2b7c91c9-330c-4458-b706-686d7b4373cf)
-  ![image](https://github.com/GaborDevv/kafka/assets/147967502/1d62e915-00e6-4b13-9fe8-387fdfd22194)
+
+![image](https://github.com/GaborDevv/kafka/assets/147967502/2b7c91c9-330c-4458-b706-686d7b4373cf)
+![image](https://github.com/GaborDevv/kafka/assets/147967502/1d62e915-00e6-4b13-9fe8-387fdfd22194)
 
 - Finally sessionize the data with the sessionize-data.sh script. Which will simulates user sessions. The script pauses the DATAGEN_CLICKSTREAM connector every 90 seconds for a 35 second period of inactivity which allows us to see different user sessions.
+
 ![image](https://github.com/GaborDevv/kafka/assets/147967502/9df9ade4-696f-42f2-80a5-ffd036c816e2)
 
 Metrics: 
