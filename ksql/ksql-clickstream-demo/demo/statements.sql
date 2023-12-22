@@ -160,3 +160,13 @@ CREATE TABLE USER_IP_ACTIVITY WITH (key_format='json') AS
     FROM USER_CLICKSTREAM WINDOW TUMBLING (size 60 second)
     GROUP BY username, ip, city
     HAVING COUNT(*) > 1;
+    
+CREATE TABLE HIGH_BANDWIDTH_USER_SESSIONS AS
+    SELECT
+        username as K,
+        AS_VALUE(username) as username,
+        WINDOWEND as EVENT_TS,
+        SUM(bytes) AS total_bandwidth_usage
+    FROM USER_CLICKSTREAM WINDOW SESSION (60 second)
+    GROUP BY username
+    HAVING SUM(bytes) > 600000;
