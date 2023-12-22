@@ -35,7 +35,7 @@ Mapping users to their IP address and actual location:
 
 ![image](https://github.com/GaborDevv/kafka/assets/147967502/b71213e9-345f-4401-9cfd-ef58d8a2fb97)
 
-Detection of high-bandwidth user sessions (1 session = 60 seconds, high bandwidth > 600k bytes/sec):
+Detection of high-bandwidth user sessions (high bandwidth > 600k bytes/sec):
 
 ![image](https://github.com/GaborDevv/kafka/assets/147967502/29f8c993-5251-4139-9af4-3975bd9ac523)
 
