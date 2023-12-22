@@ -22,3 +22,27 @@
 
 Metrics: 
 
+General website analytics, such as hit count and visitors:
+
+![image](https://github.com/GaborDevv/kafka/assets/147967502/45c0d954-f2f6-4979-9ae9-52453f80cdd9)
+
+Bandwidth use:
+![image](https://github.com/GaborDevv/kafka/assets/147967502/29c7bc4f-b56b-4fd9-ac1a-435fcf88cfa2)
+
+Mapping users to their IP address and actual location:
+
+![image](https://github.com/GaborDevv/kafka/assets/147967502/b71213e9-345f-4401-9cfd-ef58d8a2fb97)
+
+Detection of high-bandwidth user sessions (1 session = 60 seconds, high bandwidth > 600k bytes/sec):
+
+![image](https://github.com/GaborDevv/kafka/assets/147967502/29f8c993-5251-4139-9af4-3975bd9ac523)
+
+
+Error code occurrence:
+
+![image](https://github.com/GaborDevv/kafka/assets/147967502/f998f79a-3c26-4d44-a203-67465830a933)
+
+
+Sessionization of resource hits to track user sessions:
+
+![image](https://github.com/GaborDevv/kafka/assets/147967502/f0ed1027-ebbe-4bfb-91f0-40e207037cdb)
